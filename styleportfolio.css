@@ -8,12 +8,7 @@ body{
   background-size: 460px 460px, 440px 440px, 220px 220px, 170px 170px;
   background-position:0 0, 40px 60px, 130px 270px, 70px 100px;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    display: none;
-    background-color: lightblue;
-  }
-}
+
 #navbar{
   position: relative;
   top: 0;

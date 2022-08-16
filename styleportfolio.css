@@ -167,7 +167,7 @@ margin: 10% 0% 0% 13%;
 
 .project-tiles{
   margin-top: 15%;
-  margin-bottom: 12%;
+  margin-bottom: 20% !important;
 }
 .project{
   display: flex;

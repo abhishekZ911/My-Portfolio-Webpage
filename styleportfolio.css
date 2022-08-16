@@ -45,9 +45,9 @@ body{
   }
 }
 .side-down-L-shape{
-  position: relative;
-  right: 170px;
-  bottom: 295px;
+  position:relative;
+  right: 13.5vw;
+  bottom: 46vh;
   margin-left: 1% !important;
   border: 5px solid rgb(236,204,178,0.2);
   border-bottom-left-radius: 10px;
@@ -101,9 +101,8 @@ margin: 10% 0% 0% 13%;
 @media (max-width: 450px){
   #welcome-section{
     position: relative;
-    bottom: 170px;
-    margin: 40% 0% 38% 2%;
-    bottom:
+    bottom: 117px;
+    margin: 58% 0% 77% 2%;
   }
 }
 .intro{
@@ -162,14 +161,14 @@ margin: 10% 0% 0% 13%;
     margin-left: 3%;
     position: relative;
     top: -100px;
+    margin-left: 1%;
   }
 }
 
-.project-tile{
+.project-tiles{
   margin-top: 15%;
   margin-bottom: 12%;
 }
-
 .project{
   display: flex;
   justify-content: flex-start;
@@ -200,7 +199,7 @@ margin: 10% 0% 0% 13%;
 
 @media (max-width: 440px) {
   .project-no{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 .project-name{
@@ -213,7 +212,8 @@ margin: 10% 0% 0% 13%;
 
 @media (max-width: 440px){
   .project-name{
-    font-size: .7rem;
+    width: 100%;
+    font-size: .9rem;
   }
 }
 .project-name h2, h3  {
@@ -277,7 +277,7 @@ margin: 10% 0% 0% 13%;
 
 @media (max-width: 440px){
   .project-desc{
-    font-size: .6rem;
+    font-size: .7rem;
   }
 }
 div.image{
@@ -300,7 +300,7 @@ div.image{
 
 @media (max-width: 440px){
   .image-tile{
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -480,6 +480,7 @@ margin-bottom: 0.3%;}
 }
 .contact-tiles{
   width: 37%;
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
